@@ -1,0 +1,787 @@
+I, [2015-05-13T14:07:18.246689 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Cleaning up any prior instances of <BaseNETAppServer2012R2-Windows2012R2>
+I, [2015-05-13T14:07:18.247690 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Destroying <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:07:18.248690 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished destroying <BaseNETAppServer2012R2-Windows2012R2> (0m0.00s).
+I, [2015-05-13T14:07:18.249690 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Testing <BaseNETAppServer2012R2-Windows2012R2>
+I, [2015-05-13T14:07:18.249690 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Creating <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:07:20.440566 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2015-05-13T14:07:21.939166 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Importing base box 'Windows2012R2'...
+I, [2015-05-13T14:08:30.248979 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2015-05-13T14:08:31.773588 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Setting the name of the VM: kitchen-BaseConfiguration-BaseNETAppServer2012R2-Windows2012R2_default_1431540511723_91340
+I, [2015-05-13T14:08:34.277589 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Clearing any previously set network interfaces...
+I, [2015-05-13T14:08:34.488674 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Preparing network interfaces based on configuration...
+I, [2015-05-13T14:08:34.488674 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:     default: Adapter 1: nat
+I, [2015-05-13T14:08:34.676749 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Forwarding ports...
+I, [2015-05-13T14:08:34.840815 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:     default: 5985 => 55985 (adapter 1)
+I, [2015-05-13T14:08:34.840815 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:     default: 22 => 2222 (adapter 1)
+I, [2015-05-13T14:08:35.081911 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Booting VM...
+I, [2015-05-13T14:08:50.054398 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2015-05-13T14:09:14.066999 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Machine booted and ready!
+I, [2015-05-13T14:09:14.067499 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Checking for guest additions in VM...
+I, [2015-05-13T14:09:14.250572 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Machine not provisioning because `--no-provision` is specified.
+I, [2015-05-13T14:09:24.259574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WinRM] Established
+I, [2015-05-13T14:09:24.284084 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Vagrant instance <BaseNETAppServer2012R2-Windows2012R2> created.
+I, [2015-05-13T14:09:24.290086 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished creating <BaseNETAppServer2012R2-Windows2012R2> (2m6.03s).
+I, [2015-05-13T14:09:24.291087 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Converging <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:09:24.294088 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Preparing files for transfer
+I, [2015-05-13T14:09:24.294588 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Staging DSC Resource Modules for copy to the SUT
+I, [2015-05-13T14:09:25.115416 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Staging DSC configuration script for copy to the SUT
+I, [2015-05-13T14:09:27.398829 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.399330 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.399830 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:     Directory: C:\Users\Administrator\SetupLCM
+I, [2015-05-13T14:09:27.399830 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.399830 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.400330 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Mode                LastWriteTime     Length Name                              
+I, [2015-05-13T14:09:27.400830 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ----                -------------     ------ ----                              
+I, [2015-05-13T14:09:27.400830 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -a---         5/13/2015  11:09 AM       1200 localhost.meta.mof                
+I, [2015-05-13T14:09:27.401330 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.401330 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:09:27.426841 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Transferring files to <BaseNETAppServer2012R2-Windows2012R2>
+I, [2015-05-13T14:09:39.186042 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Moving DSC Resources onto PSModulePath
+I, [2015-05-13T14:09:39.187043 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Generating the MOF script for the configuration BaseNETAppServer2012R2
+I, [2015-05-13T14:09:41.073297 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Running the configuration BaseNETAppServer2012R2
+I, [2015-05-13T14:12:30.683066 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.684066 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Id     Name            PSJobTypeName   State         HasMoreData     Location  
+I, [2015-05-13T14:12:30.684066 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: --     ----            -------------   -----         -----------     --------  
+I, [2015-05-13T14:12:30.684066 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 1      Job1            Configuratio... Failed        True            localhost 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Perform operation 'Invoke CimMethod' with following parameters, ''methodName' 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: = SendConfigurationApply,'className' = 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: MSFT_DSCLocalConfigurationManager,'namespaceName' = 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: root/Microsoft/Windows/DesiredStateConfiguration'.
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: An LCM method call arrived from computer WIN-F0UG7RJMPJA with user sid 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: S-1-5-21-1351542086-3498749049-2604355835-500.
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebServer]
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebServer]
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] The 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: operation 'Get-WindowsFeature' started: Web-Server
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] The 
+I, [2015-05-13T14:12:30.686067 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: operation 'Get-WindowsFeature' succeeded: Web-Server
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]WebServer]  in 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 11.2340 seconds.
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[WindowsFeature]WebServer]
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation started...
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing started...
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation succeeded.
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebServer] 
+I, [2015-05-13T14:12:30.686567 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: successfully installed the feature Web-Server
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[WindowsFeature]WebServer]  in 
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 32.8410 seconds.
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebServer]
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebWebServer]
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebWebServer]
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebWebServer] 
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' started: Web-WebServer
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebWebServer] 
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' succeeded: Web-WebServer
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]WebWebServer]  
+I, [2015-05-13T14:12:30.687068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: in 0.2650 seconds.
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  [[WindowsFeature]WebWebServer]
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebWebServer]
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebLogLibraries]
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebLogLibraries]
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] The operation 'Get-WindowsFeature' started: 
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Web-Log-Libraries
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: Web-Log-Libraries
+I, [2015-05-13T14:12:30.687568 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries]  in 3.7830 seconds.
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[WindowsFeature]WebLogLibraries]
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] Installation started...
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.688068 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] Prerequisite processing started...
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] Installation succeeded.
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries] successfully installed the feature 
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Web-Log-Libraries
+I, [2015-05-13T14:12:30.700573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebLogLibraries]  in 8.1700 seconds.
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebLogLibraries]
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebHttpTracing]
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebHttpTracing]
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' started: Web-Http-Tracing
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.701073 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' succeeded: Web-Http-Tracing
+I, [2015-05-13T14:12:30.701573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.701573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  in 0.2190 seconds.
+I, [2015-05-13T14:12:30.701573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[WindowsFeature]WebHttpTracing]
+I, [2015-05-13T14:12:30.701573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.701573 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation started...
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing started...
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation succeeded.
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: successfully installed the feature Web-Http-Tracing
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[WindowsFeature]WebHttpTracing] 
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  in 9.8900 seconds.
+I, [2015-05-13T14:12:30.702074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebHttpTracing]
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] The operation 'Get-WindowsFeature' started: 
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Web-Custom-Logging
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: Web-Custom-Logging
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.702574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]  in 0.2500 seconds.
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] Installation started...
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] Prerequisite processing started...
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] Installation succeeded.
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.703074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging] successfully installed the feature 
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Web-Custom-Logging
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]  in 8.3270 seconds.
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WebCustomLogging]
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebODBCLogging]
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebODBCLogging]
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' started: Web-ODBC-Logging
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' succeeded: Web-ODBC-Logging
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.703574 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  in 0.2660 seconds.
+I, [2015-05-13T14:12:30.704074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[WindowsFeature]WebODBCLogging]
+I, [2015-05-13T14:12:30.704074 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.718580 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing started...
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation succeeded.
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: successfully installed the feature Web-ODBC-Logging
+I, [2015-05-13T14:12:30.719080 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[WindowsFeature]WebODBCLogging] 
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  in 16.2490 seconds.
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebODBCLogging]
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WebAspNet45]
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WebAspNet45]
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' started: Web-Asp-Net45
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' succeeded: Web-Asp-Net45
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]WebAspNet45]  
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: in 0.2650 seconds.
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[WindowsFeature]WebAspNet45]
+I, [2015-05-13T14:12:30.719581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation started...
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing started...
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Installation succeeded.
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WebAspNet45] 
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: successfully installed the feature Web-Asp-Net45
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[WindowsFeature]WebAspNet45]  
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: in 15.7190 seconds.
+I, [2015-05-13T14:12:30.720081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WebAspNet45]
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core]
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core]
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-Framework-45-Core
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-Framework-45-Core
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.720581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core]  in 0.2180 seconds.
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core]
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45Core]
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET]
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET]
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.721081 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-Framework-45-ASPNET
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-Framework-45-ASPNET
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET]  in 3.9690 seconds.
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET]
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.721581 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETFramework45ASPNET]
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45]
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45]
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-WCF-HTTP-Activation45
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-WCF-HTTP-Activation45
+I, [2015-05-13T14:12:30.722082 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.741589 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.741589 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  
+I, [2015-05-13T14:12:30.742090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45]
+I, [2015-05-13T14:12:30.742090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.742090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] Installation started...
+I, [2015-05-13T14:12:30.742090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.742090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] Prerequisite processing started...
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] Installation succeeded.
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45] successfully installed the feature 
+I, [2015-05-13T14:12:30.742590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: NET-WCF-HTTP-Activation45
+I, [2015-05-13T14:12:30.743090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.743090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45]  in 8.7960 seconds.
+I, [2015-05-13T14:12:30.743090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.743090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFHTTPActivation45]
+I, [2015-05-13T14:12:30.743090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.743590 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-WCF-MSMQ-Activation45
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-WCF-MSMQ-Activation45
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]  in 0.2670 seconds.
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  
+I, [2015-05-13T14:12:30.744090 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] Installation started...
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] Prerequisite processing started...
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.744591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] Installation succeeded.
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45] successfully installed the feature 
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: NET-WCF-MSMQ-Activation45
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]  in 12.2740 seconds.
+I, [2015-05-13T14:12:30.745091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFMSMQActivation45]
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-WCF-Pipe-Activation45
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.745591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-WCF-Pipe-Activation45
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]  in 0.3370 seconds.
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] Installation started...
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] Prerequisite processing started...
+I, [2015-05-13T14:12:30.746091 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] Installation succeeded.
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45] successfully installed the feature 
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: NET-WCF-Pipe-Activation45
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]  in 9.4760 seconds.
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFPipeActivation45]
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.746591 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]
+I, [2015-05-13T14:12:30.768600 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.768600 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]
+I, [2015-05-13T14:12:30.768600 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.768600 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-WCF-TCP-Activation45
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-WCF-TCP-Activation45
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]  in 0.2280 seconds.
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]
+I, [2015-05-13T14:12:30.769100 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] Installation started...
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] Prerequisite processing started...
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] Prerequisite processing succeeded.
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] Installation succeeded.
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45] successfully installed the feature 
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: NET-WCF-TCP-Activation45
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]  in 10.6170 seconds.
+I, [2015-05-13T14:12:30.769601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPActivation45]
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45]
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45]
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: started: NET-WCF-TCP-Portsharing45
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.770101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: NET-WCF-TCP-PortSharing45
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45]  in 0.6550 seconds.
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45]
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]NETWCFTCPPortsharing45]
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]MSMQServer]
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]MSMQServer]
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]MSMQServer] The 
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: operation 'Get-WindowsFeature' started: MSMQ-Server
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]MSMQServer] The 
+I, [2015-05-13T14:12:30.770601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: operation 'Get-WindowsFeature' succeeded: MSMQ-Server
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[WindowsFeature]MSMQServer]  in 
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 0.1950 seconds.
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  [[WindowsFeature]MSMQServer]
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]MSMQServer]
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WASProcessModel]
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WASProcessModel]
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WASProcessModel] The operation 'Get-WindowsFeature' started: 
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: WAS-Process-Model
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WASProcessModel] The operation 'Get-WindowsFeature' 
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: succeeded: WAS-Process-Model
+I, [2015-05-13T14:12:30.771101 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [[WindowsFeature]WASProcessModel]  in 0.2220 seconds.
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  [[WindowsFeature]WASProcessModel]
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WASProcessModel]
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[WindowsFeature]WASConfigAPIs]
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[WindowsFeature]WASConfigAPIs]
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WASConfigAPIs] 
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' started: WAS-Config-APIs
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[WindowsFeature]WASConfigAPIs] 
+I, [2015-05-13T14:12:30.771601 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: The operation 'Get-WindowsFeature' succeeded: WAS-Config-APIs
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: in 0.1960 seconds.
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Skip   Set      ]  [[WindowsFeature]WASConfigAPIs]
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[WindowsFeature]WASConfigAPIs]
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[File]WebSites]
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[File]WebSites]
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[File]WebSites] The system 
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: cannot find the file specified.
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[File]WebSites] The related 
+I, [2015-05-13T14:12:30.785107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: file/directory is: c:\Websites.
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[File]WebSites]  in 0.0130 
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: seconds.
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[File]WebSites]
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[File]WebSites] The system 
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: cannot find the file specified.
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[File]WebSites] The related 
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: file/directory is: c:\Websites.
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[File]WebSites]  in 0.0140 
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: seconds.
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Resource ]  [[File]WebSites]
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Resource ]  [[FMGlobal_Website]TestSite]
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Test     ]  [[FMGlobal_Website]TestSite]
+I, [2015-05-13T14:12:30.785607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Loading module from path 'C:\Windows\system32\WindowsPowerShell\v1.0\Modules\We
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: bAdministration\WebAdministration.psd1'.
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Loading 'Assembly' from path 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Micros
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: oft.IIS.PowerShell.Framework\v4.0_8.5.0.0__31bf3856ad364e35\Microsoft.IIS.Power
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Shell.Framework.dll'.
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Loading 'TypesToProcess' from path 'C:\Windows\system32\WindowsPowerShell\v1.0\
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Modules\WebAdministration\iisprovider.types.ps1xml'.
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Loading 'FormatsToProcess' from path 'C:\Windows\system32\WindowsPowerShell\v1.
+I, [2015-05-13T14:12:30.786107 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 0\Modules\WebAdministration\iisprovider.format.ps1xml'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting function 'IIS:'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Start-WebCommitDelay'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Stop-WebCommitDelay'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Add-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.786607 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Rename-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfiguration'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Select-WebConfiguration'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebConfiguration'.
+I, [2015-05-13T14:12:30.787108 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.787608 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Clear-WebConfiguration'.
+I, [2015-05-13T14:12:30.799613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Add-WebConfiguration'.
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Add-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.800113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.800613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.800613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.800613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfigFile'.
+I, [2015-05-13T14:12:30.801113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebFilePath'.
+I, [2015-05-13T14:12:30.801113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801113 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-Website'.
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebApplication'.
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.801613 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebAppPool'.
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebAppPool'.
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebFtpSite'.
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebBinding'.
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebBinding'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebBinding'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-Website'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-Website'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebApplication'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebApplication'.
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.802614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebRequest'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebAppDomain'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebsiteState'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebAppPoolState'.
+I, [2015-05-13T14:12:30.803114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Start-Website'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Start-WebAppPool'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Restart-WebAppPool'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Stop-Website'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Stop-WebAppPool'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebGlobalModule'.
+I, [2015-05-13T14:12:30.803614 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.804114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'New-WebManagedModule'.
+I, [2015-05-13T14:12:30.804114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.804114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Enable-WebGlobalModule'.
+I, [2015-05-13T14:12:30.804114 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.824122 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.824623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.824623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebGlobalModule'.
+I, [2015-05-13T14:12:30.824623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.824623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebManagedModule'.
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebHandler'.
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Disable-WebGlobalModule'.
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebGlobalModule'.
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebManagedModule'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebHandler'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebGlobalModule'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebManagedModule'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebHandler'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebBinding'.
+I, [2015-05-13T14:12:30.825623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebConfigurationBackup'.
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Remove-WebConfigurationBackup'.
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Backup-WebConfiguration'.
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Restore-WebConfiguration'.
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'ConvertTo-WebApplication'.
+I, [2015-05-13T14:12:30.826123 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Enable-WebRequestTracing'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Disable-WebRequestTracing'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Clear-WebRequestTracingSettings'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Clear-WebRequestTracingSetting'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebURL'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Start-WebItem'.
+I, [2015-05-13T14:12:30.826623 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Stop-WebItem'.
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Restart-WebItem'.
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebItemState'.
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Get-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.827124 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Set-WebCentralCertProviderCredential'.
+I, [2015-05-13T14:12:30.844631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.845131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Clear-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.845131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.845131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Disable-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Exporting cmdlet 'Enable-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Add-WebConfiguration'.
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.845631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Add-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.846131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.846131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Add-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.846131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.846131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Backup-WebConfiguration'.
+I, [2015-05-13T14:12:30.846131 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Clear-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Clear-WebConfiguration'.
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Clear-WebRequestTracingSetting'.
+I, [2015-05-13T14:12:30.846631 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Clear-WebRequestTracingSettings'.
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'ConvertTo-WebApplication'.
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Disable-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.847132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Disable-WebGlobalModule'.
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Disable-WebRequestTracing'.
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Enable-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Enable-WebGlobalModule'.
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Enable-WebRequestTracing'.
+I, [2015-05-13T14:12:30.847632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebAppDomain'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebApplication'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebAppPoolState'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebBinding'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfigFile'.
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfiguration'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfigurationBackup'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebFilePath'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebGlobalModule'.
+I, [2015-05-13T14:12:30.848632 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.849132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebHandler'.
+I, [2015-05-13T14:12:30.849132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.849132 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebItemState'.
+I, [2015-05-13T14:12:30.869641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.870141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebManagedModule'.
+I, [2015-05-13T14:12:30.870141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.870141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebRequest'.
+I, [2015-05-13T14:12:30.870141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-Website'.
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebsiteState'.
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebURL'.
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Get-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.870641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebApplication'.
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebAppPool'.
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebBinding'.
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebFtpSite'.
+I, [2015-05-13T14:12:30.871141 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebGlobalModule'.
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebHandler'.
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebManagedModule'.
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-Website'.
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.871641 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'New-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebApplication'.
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebAppPool'.
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebBinding'.
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebConfigurationBackup'.
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebConfigurationLock'.
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebGlobalModule'.
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebHandler'.
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.872642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebManagedModule'.
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-Website'.
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Remove-WebVirtualDirectory'.
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Rename-WebConfigurationLocation'.
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Restart-WebAppPool'.
+I, [2015-05-13T14:12:30.873142 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Restart-WebItem'.
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Restore-WebConfiguration'.
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Select-WebConfiguration'.
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.873642 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebBinding'.
+I, [2015-05-13T14:12:30.896151 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.896651 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebCentralCertProvider'.
+I, [2015-05-13T14:12:30.896651 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebCentralCertProviderCredential'.
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebConfiguration'.
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebConfigurationProperty'.
+I, [2015-05-13T14:12:30.897152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebGlobalModule'.
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebHandler'.
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Set-WebManagedModule'.
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Start-WebAppPool'.
+I, [2015-05-13T14:12:30.897652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Start-WebCommitDelay'.
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Start-WebItem'.
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Start-Website'.
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Stop-WebAppPool'.
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Stop-WebCommitDelay'.
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Stop-WebItem'.
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing cmdlet 'Stop-Website'.
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Importing function 'IIS:'.
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Starting the Test-TargetResource Updated on 10/21/2014
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite]  
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Found 0 site(s)
+I, [2015-05-13T14:12:30.898652 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]:                            [[FMGlobal_Website]TestSite] 
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Ensure is not set to the Desired State
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Test     ]  [[FMGlobal_Website]TestSite]  in 
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 0.2090 seconds.
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ Start  Set      ]  [[FMGlobal_Website]TestSite]
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]  [[FMGlobal_Website]TestSite]  in 
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 10.2080 seconds.
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: [WIN-F0UG7RJMPJA]: LCM:  [ End    Set      ]
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Operation 'Invoke CimMethod' complete.
+I, [2015-05-13T14:12:30.899152 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:30.899653 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: 
+I, [2015-05-13T14:12:31.353834 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished converging <BaseNETAppServer2012R2-Windows2012R2> (3m7.06s).
+I, [2015-05-13T14:12:31.354334 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Setting up <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:12:31.356335 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished setting up <BaseNETAppServer2012R2-Windows2012R2> (0m0.00s).
+I, [2015-05-13T14:12:31.356835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Verifying <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:12:31.359336 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Preparing files for transfer
+I, [2015-05-13T14:12:31.641949 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Transferring files to <BaseNETAppServer2012R2-Windows2012R2>
+I, [2015-05-13T14:12:40.104833 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Executing all tests in 'C:\Users\Administrator\AppData\Local\Temp\verifier\suites\pester'Describing Roles and Features
+I, [2015-05-13T14:12:40.107334 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  [+] Should have the Web-Server Role Enabled 888ms [+] Should have the Web-WebServer Role Enabled 344ms [+] Should have the Web-Log-Libraries Role Enabled 205ms [+] Should have the Web-Http-Tracing Role Enabled 205ms [+] Should have the Web-Custom-Logging Role Enabled 196ms [+] Should have the Web-ODBC-Logging Role Enabled 208ms [+] Should have the Web-Asp-Net45 Role Enabled 197ms [+] Should have the NET-Framework-45-Core Role Enabled 202ms [+] Should have the NET-Framework-45-ASPNET Role Enabled 292ms [+] Should have the NET-WCF-HTTP-Activation45 Role Enabled 209ms [+] Should have the NET-WCF-MSMQ-Activation45 Role Enabled 193ms [+] Should have the NET-WCF-Pipe-Activation45 Role Enabled 206ms [+] Should have the NET-WCF-TCP-Activation45 Role Enabled 203ms [+] Should have the NET-WCF-TCP-Portsharing45 Role Enabled 198ms [+] Should have the MSMQ-Server Role Enabled 234ms [+] Should have the WAS-Process-Model Role Enabled 194ms [+] Should have the WAS-Config-APIs Role Enabled 261msDescribing Web Site SetUp
+I, [2015-05-13T14:12:40.108835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  [+] Should have a folder c:\websites 355ms [-] Should have Web Site TestKitchen 241ms
+I, [2015-05-13T14:12:40.108835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    Expected: {TestKitchen}
+I, [2015-05-13T14:12:40.108835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    But was:  {}
+I, [2015-05-13T14:12:40.109335 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    at line: 40 in C:\Users\Administrator\AppData\Local\Temp\verifier\suites\pester\BaseNETAppServer2012R2.Tests.ps1
+I, [2015-05-13T14:12:40.109835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:  [-] TestKitchen site should be started 32ms
+I, [2015-05-13T14:12:40.109835 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    Expected: {started}
+I, [2015-05-13T14:12:40.110335 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    But was:  {}
+I, [2015-05-13T14:12:40.110335 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2:    at line: 44 in C:\Users\Administrator\AppData\Local\Temp\verifier\suites\pester\BaseNETAppServer2012R2.Tests.ps1
+I, [2015-05-13T14:12:40.111336 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Tests completed in 5.07s
+I, [2015-05-13T14:12:40.111336 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Passed: 18 Failed: 2 Skipped: 0 Pending: 0
+I, [2015-05-13T14:12:40.146350 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished verifying <BaseNETAppServer2012R2-Windows2012R2> (0m8.79s).
+I, [2015-05-13T14:12:40.147850 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: -----> Destroying <BaseNETAppServer2012R2-Windows2012R2>...
+I, [2015-05-13T14:12:45.542007 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Forcing shutdown of VM...
+I, [2015-05-13T14:12:47.239686 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: ==> default: Destroying VM and associated drives...
+I, [2015-05-13T14:12:47.479782 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Vagrant instance <BaseNETAppServer2012R2-Windows2012R2> destroyed.
+I, [2015-05-13T14:12:47.480782 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished destroying <BaseNETAppServer2012R2-Windows2012R2> (0m7.33s).
+I, [2015-05-13T14:12:47.481783 #2556]  INFO -- BaseNETAppServer2012R2-Windows2012R2: Finished testing <BaseNETAppServer2012R2-Windows2012R2> (5m29.24s).
